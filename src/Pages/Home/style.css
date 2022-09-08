@@ -1,0 +1,232 @@
+@imsort url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+/* ____________________________Nav___________________________ */
+
+.head1 {
+  color: #c11325;
+}
+.nav {
+  background-color: black;
+}
+.head2 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+}
+@media screen and (min-width: 100px) and (max-width: 255px) {
+  .head2 {
+    font-size: 18px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+}
+/* ________________________Header_______________________ */
+.home_pic1 {
+  background-image: url(../../Assets/Images/home.jpg);
+  background-size: 120% 100%;
+  height: 85vh;
+  width: 100%;
+}
+.home_head2 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+@media screen and (min-width: 260px) and (max-width: 450px) {
+  .home_pic1 {
+    height: 50vh;
+    width: 100%;
+  }
+  .home_head2 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 750px) {
+  .home_pic1 {
+    height: 65vh;
+    width: 100%;
+  }
+  .home_head2 {
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1050px) {
+  .home_pic1 {
+    height: 75vh;
+    width: 100%;
+  }
+  .home_head2 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+  }
+}
+/* ________________________________Cards___________________ */
+.home_p1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.home_p2 {
+  line-height: 1.2;
+  font-size: 0.9rem;
+  font-family: "Open Sans", sans-serif;
+}
+/* ______________________________services__________________ */
+.btn1 {
+  border: none;
+  outline: none;
+}
+.home_card1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+.btn2:focus .card1 {
+  background-color: #222222;
+}
+.home_p3 {
+  font-size: 20px;
+  color: white;
+}
+/* ___________________________Our Classes_____________________ */
+.home_p4 {
+  font-weight: 600;
+}
+.box {
+  height: 8vh;
+  width: 20%;
+  top: 0;
+  position: absolute;
+}
+.home_p5 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.home_p6 {
+  height: 35vh;
+}
+.home_pic3 {
+  position: relative;
+  width: 100%;
+}
+.extra {
+  right: 0;
+}
+.home_pic4 {
+  transform: rotateY(180deg);
+}
+/* ______________________________Training____________________ */
+.btn3 {
+  border: none;
+  outline: none;
+}
+/* _________________________-gallery_____________________ */
+.home_pic5 {
+  filter: grayscale(100%);
+  transition-duration: 0.5s;
+}
+.home_pic5:hover {
+  filter: grayscale(0);
+}
+/* _______________________cards_________________________ */
+.home_p7 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.home_card2 {
+  background-color: #f0f0f0;
+}
+.btn4 {
+  width: 35%;
+  border: none;
+  outline: none;
+}
+.home_maincard {
+  border: none;
+}
+/* _________________________Footer_________________________ */
+.inp {
+  border: 1px solid white;
+  background: transparent;
+  outline: none;
+  color: white;
+}
+::placeholder {
+  color: white;
+  padding-top: 5px;
+}
+.home_p8 {
+  line-height: 1.2;
+  font-size: 1.1rem;
+}
+.fb {
+  height: 6vh;
+  width: 8%;
+  font-size: 1.3rem;
+}
+.footer {
+  background-color: #222222;
+}
+/* _______________________schedule_________________________ */
+.scheduleHeading {
+  font-size: 26px;
+  font-weight: 500;
+}
+.schedulePara {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13.5px;
+  line-height: 20px;
+}
+.imgRun {
+  transform: rotatey(180deg);
+  height: 88vh;
+}
+.Table {
+  width: 820px;
+  height: 400px;
+  padding: 15px 15px 15px 15px;
+  min-height: auto;
+  max-width: 100%;
+  min-width: auto;
+}
+.tdata {
+  height: 61px;
+  width: 123.828px;
+  position: table-cell;
+  box-sizing: border-box;
+  border: 1px solid rgb(209, 205, 205);
+  text-align: center;
+}
+.tdDay {
+  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.tTime {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+.t2 {
+  width: 163.828px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.t3 {
+  width: 145px;
+  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
