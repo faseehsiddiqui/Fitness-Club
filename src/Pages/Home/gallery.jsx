@@ -8,7 +8,7 @@ export default class Gallery extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid py-5">
+        <div className="container-fluid py-5" id="Workout">
           <h2 className="py-5 text-center">___Workout Gallery___</h2>
           <div className="row">
             <div className="col-lg-6 home_pic5 p-0 m-0" data-aos="fade-right">

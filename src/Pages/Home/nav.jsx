@@ -5,7 +5,7 @@ export default class Nav extends Component {
   render() {
     return (
       <>
-        <div className="container-fluid  " style={{ backgroundColor: "black" }}>
+        <div className="container-fluid  " style={{ backgroundColor: "black",position:"sticky",top:"0%",zIndex:"5" }}>
           <nav className="navbar navbar-expand-lg ">
             <h3 className="text-white head2 ">
               Fitness <span className="head1"> Club</span>
@@ -28,27 +28,32 @@ export default class Nav extends Component {
             </button>
             <div className="collapse navbar-collapse   " id="navbarNav">
               <div className="col-lg-4 "></div>
-              <div className="col-lg-4 "></div>
-              <div className="col-lg-4 ">
+              <div className="col-lg-3 "></div>
+              <div className="col-lg-5  ">
                 <ul className="navbar-nav  text-center">
                   <li className="nav-item active">
-                    <a className="nav-link  text-white mx-2" href="#">
+                    <a className="nav-link  text-white mx-2" href="#Home">
                       Home <span className="sr-only">(current)</span>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link  text-white  mx-2" href="#">
-                      Features
+                    <a className="nav-link  text-white  mx-2" href="#services">
+                      Services
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link  text-white  mx-2" href="#">
-                      Pricing
+                    <a className="nav-link  text-white  mx-2" href="#schedule">
+                      Schedule
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-white  mx-2" href="#">
-                      Training
+                    <a className="nav-link  text-white  mx-2" href="#Workout">
+                      Workout
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link text-white  mx-2" href="#pakages">
+                      Pakages
                     </a>
                   </li>
                 </ul>

@@ -5,7 +5,7 @@ export default class Service extends Component {
   render() {
     return (
       <>
-        <div className="container-fluid bg-danger py-5">
+        <div className="container-fluid bg-danger py-5" id="services">
           <div className="container  py-5 ">
             <div className="row ">
               <div className="col-lg-6 py-4" data-aos="fade-right">

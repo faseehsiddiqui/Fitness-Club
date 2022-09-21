@@ -7,7 +7,7 @@ export default class Cards2 extends Component {
   render() {
     return (
       <div>
-        <div className="container py-5">
+        <div className="container py-5" id="pakages">
           <div className="row ">
             <div className="col-lg-12">
               <h2 className="text-center py-2">Choose Your Package</h2>

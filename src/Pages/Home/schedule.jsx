@@ -5,7 +5,7 @@ export default class Schedule extends Component {
   render() {
     return (
       <>
-        <div className="container pt-4">
+        <div className="container pt-4" id='schedule'>
           <div className="row d-flex justify-content-between">
             <div className="col-lg-6 " data-aos="fade-right">
               <h2 className='scheduleHeading pt-4 home_p2'>Classes Schedule</h2>
